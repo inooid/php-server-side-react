@@ -1,0 +1,12 @@
+{
+    "name": "boyddames/php-server-side-react",
+    "require": {
+        "nacmartin/phpexecjs": "^0.8.7"
+    },
+    "authors": [
+        {
+            "name": "Boyd Dames",
+            "email": "JustDrawCats@gmail.com"
+        }
+    ]
+}
