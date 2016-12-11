@@ -46,5 +46,8 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# Remove JS build files from git
+/build/
+
 # PHP
 /vendor/
