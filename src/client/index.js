@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from 'containers/app';
 
-// Fixes nested objects being passed down to props
+// Fixes nested objects being passed down to props as objects, instead of strings
 function parseInitialProps(props) {
   const { pages } = props;
 
