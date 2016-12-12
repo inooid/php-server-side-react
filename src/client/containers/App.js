@@ -18,12 +18,14 @@ export default class App extends Component {
   }
 
   render() {
+    const pageData = this.props.pages[this.state.currentPage];
+
     return (
       <div>
         <Header />
         <Navigation currentPage={this.state.currentPage} changePage={this.changePage} />
         <Sidebar changePage={this.changePage} />
-        <Page title="New website" body="Lorem Ipsum" />
+        <Page title={pageData.title} body={pageData.body} />
       </div>
     );
   }
