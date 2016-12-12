@@ -19,7 +19,7 @@ $pages = json_encode([
 ]);
 
 $server_props = json_encode([
-  'currentPage' => 'about',
+  'initialPage' => 'home',
   'pages' => $pages,
 ]);
 
