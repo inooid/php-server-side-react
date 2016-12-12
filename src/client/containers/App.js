@@ -9,7 +9,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { currentPage: props.currentPage || 'home' }
+    this.state = { currentPage: props.initialPage || 'home' }
     this.changePage = this.changePage.bind(this);
   }
 
