@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Sidebar = (changePage) => (
+const Sidebar = ({ changePage }) => (
   <aside>
     <section>
       <h3>About me</h3>
