@@ -5,7 +5,7 @@ import NavigationItem from 'components/NavigationItem';
 const Navigation = ({ currentPage = 'home', changePage }) => {
   const routes = [
     { name: 'Home', url: 'home' },
-    { name: 'About', url: 'about-us' },
+    { name: 'About', url: 'about' },
     { name: 'Contact', url: 'contact' },
   ];
   const navigationItems = routes.map((route, index) => (
