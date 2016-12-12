@@ -3,7 +3,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Nacmartin\PhpExecJs\PhpExecJs;
 
-$pages = json_encode([
+$pages = [
   'home' => [
     'title' => 'Homepage',
     'body' => 'Welcome to the homepage of this website.'
@@ -16,7 +16,7 @@ $pages = json_encode([
     'title' => 'Contact',
     'body' => 'Want to contact us? Use the form down below!'
   ]
-]);
+];
 
 $server_props = json_encode([
   'initialPage' => 'home',
